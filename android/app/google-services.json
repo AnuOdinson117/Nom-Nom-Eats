@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1097301732284",
+    "project_id": "nom-nom-eats",
+    "storage_bucket": "nom-nom-eats.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097301732284:android:28dbabfd165580a5ca19b9",
+        "android_client_info": {
+          "package_name": "com.example.nom_nom_eats"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKZqesV5k0yX5WBCcbC6tSynM1rGDl570"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
