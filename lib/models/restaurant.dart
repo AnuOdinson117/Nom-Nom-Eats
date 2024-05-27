@@ -7,44 +7,36 @@ import 'food.dart';
 class Restaurant extends ChangeNotifier {
   final List<Food> _menu = [
     Food(
-      name: "Amritsari Fish Tikka",
-      description: "Great Amritsari Fish Tikka",
-      imagePath: "lib/images/nonvegstart/amritsari_fish_tikka.jpg",
+      name: "Chicken Kebabs",
+      description:
+          "Grilled skewered chicken marinated with spices, tender and flavorful bites.",
+      imagePath: "lib/images/nonvegstart/chicken_kebabs.png",
       price: 100,
-      category: FoodCategory.startersN,
+      category: FoodCategory.starter,
       availableAddons: [
         Addon(name: "Sauce", price: 20),
         Addon(name: "Salad", price: 20),
       ],
     ),
     Food(
-      name: "Andhra Chilli Chicken",
-      description: "Andhra Chilli Chicken",
-      imagePath: "lib/images/nonvegstart/andhra_chilli_chicken.jpg",
+      name: "Chicken Lollipops",
+      description:
+          "Spicy, deep-fried chicken wings served as a popular appetizer dish.",
+      imagePath: "lib/images/nonvegstart/chicken_lollipops.png",
       price: 100,
-      category: FoodCategory.startersN,
+      category: FoodCategory.starter,
       availableAddons: [
         Addon(name: "Sauce", price: 20),
         Addon(name: "Salad", price: 20),
       ],
     ),
     Food(
-      name: "Butter Chicken Balls",
-      description: "Butter Chicken Balls",
-      imagePath: "lib/images/nonvegstart/butter_chicken_meatballs.jpg",
+      name: "Chicken Meatballs",
+      description:
+          "Savory, tender chicken meatballs with herbs, perfect for any meal.",
+      imagePath: "lib/images/nonvegstart/chicken_meatballs.png",
       price: 100,
-      category: FoodCategory.startersN,
-      availableAddons: [
-        Addon(name: "Sauce", price: 20),
-        Addon(name: "Salad", price: 20),
-      ],
-    ),
-    Food(
-      name: "Chicken 65",
-      description: "Chicken 65",
-      imagePath: "lib/images/nonvegstart/chicken_65.jpg",
-      price: 100,
-      category: FoodCategory.startersN,
+      category: FoodCategory.starter,
       availableAddons: [
         Addon(name: "Sauce", price: 20),
         Addon(name: "Salad", price: 20),
@@ -52,10 +44,166 @@ class Restaurant extends ChangeNotifier {
     ),
     Food(
       name: "Chicken Momos",
-      description: "Chicken Momos",
-      imagePath: "lib/images/nonvegstart/chicken_momos.jpg",
+      description:
+          "Steamed dumplings filled with spiced chicken, popular in South Asia.",
+      imagePath: "lib/images/nonvegstart/chicken_momos.png",
       price: 100,
-      category: FoodCategory.startersN,
+      category: FoodCategory.starter,
+      availableAddons: [
+        Addon(name: "Sauce", price: 20),
+        Addon(name: "Salad", price: 20),
+      ],
+    ),
+    Food(
+      name: "Fried Chicken",
+      description:
+          "Crispy, golden-brown chicken, juicy inside, seasoned to perfection, utterly delicious.",
+      imagePath: "lib/images/nonvegstart/chicken_fried.png",
+      price: 100,
+      category: FoodCategory.starter,
+      availableAddons: [
+        Addon(name: "Sauce", price: 20),
+        Addon(name: "Salad", price: 20),
+      ],
+    ),
+    Food(
+      name: "Chicken Burger",
+      description:
+          "Juicy chicken patty, fresh veggies, soft bun, flavorful, satisfying, savory treat.",
+      imagePath: "lib/images/oneoffs/chicken_burger.png",
+      price: 100,
+      category: FoodCategory.oneoff,
+      availableAddons: [
+        Addon(name: "Sauce", price: 20),
+        Addon(name: "Salad", price: 20),
+      ],
+    ),
+    Food(
+      name: "Chicken Cutlet",
+      description:
+          "Breaded, fried chicken breast, crispy outside, juicy inside, versatile dish.",
+      imagePath: "lib/images/oneoffs/chicken_cutlet.png",
+      price: 100,
+      category: FoodCategory.oneoff,
+      availableAddons: [
+        Addon(name: "Sauce", price: 20),
+        Addon(name: "Salad", price: 20),
+      ],
+    ),
+    Food(
+      name: "Chicken Hotdog",
+      description: "Savory chicken sausage in a bun, perfect for quick meals.",
+      imagePath: "lib/images/oneoffs/chicken_hotdog.png",
+      price: 100,
+      category: FoodCategory.oneoff,
+      availableAddons: [
+        Addon(name: "Sauce", price: 20),
+        Addon(name: "Salad", price: 20),
+      ],
+    ),
+    Food(
+      name: "Chicken Pizza",
+      description:
+          "Savory chicken topping, melted cheese, and tangy tomato sauce on crust.",
+      imagePath: "lib/images/oneoffs/chicken_pizza.png",
+      price: 100,
+      category: FoodCategory.oneoff,
+      availableAddons: [
+        Addon(name: "Sauce", price: 20),
+        Addon(name: "Salad", price: 20),
+      ],
+    ),
+    Food(
+      name: "Plain Peas Rice",
+      description:
+          "Fluffy rice mixed with tender peas, a simple, delicious side dish.",
+      imagePath: "lib/images/mains/peas_rice.png",
+      price: 100,
+      category: FoodCategory.main,
+      availableAddons: [
+        Addon(name: "Sauce", price: 20),
+        Addon(name: "Salad", price: 20),
+      ],
+    ),
+    Food(
+      name: "Chicken Biriyani",
+      description:
+          "Fragrant rice cooked with tender chicken, spices, and aromatic herbs.",
+      imagePath: "lib/images/mains/chicken_biriyani.png",
+      price: 100,
+      category: FoodCategory.main,
+      availableAddons: [
+        Addon(name: "Sauce", price: 20),
+        Addon(name: "Salad", price: 20),
+      ],
+    ),
+    Food(
+      name: "Chicken Fried Rice",
+      description:
+          "Savory stir-fried rice with tender chicken, veggies, and flavorful seasoning.",
+      imagePath: "lib/images/mains/chicken_fried_rice.png",
+      price: 100,
+      category: FoodCategory.main,
+      availableAddons: [
+        Addon(name: "Sauce", price: 20),
+        Addon(name: "Salad", price: 20),
+      ],
+    ),
+    Food(
+      name: "Chicken Curry",
+      description:
+          "Savory blend of tender chicken, aromatic spices in creamy sauce.",
+      imagePath: "lib/images/mains/chicken_curry.png",
+      price: 100,
+      category: FoodCategory.main,
+      availableAddons: [
+        Addon(name: "Sauce", price: 20),
+        Addon(name: "Salad", price: 20),
+      ],
+    ),
+    Food(
+      name: "Chicken Tomato Curry",
+      description:
+          "Savory chicken simmered in spicy tomato sauce with aromatic spices.",
+      imagePath: "lib/images/mains/chicken_tomato_curry.png",
+      price: 100,
+      category: FoodCategory.main,
+      availableAddons: [
+        Addon(name: "Sauce", price: 20),
+        Addon(name: "Salad", price: 20),
+      ],
+    ),
+    Food(
+      name: "Chilli Chicken",
+      description:
+          "Spicy, tangy, tender chicken with peppers, onions, and flavorful sauce.",
+      imagePath: "lib/images/mains/chicken_chilli.png",
+      price: 100,
+      category: FoodCategory.main,
+      availableAddons: [
+        Addon(name: "Sauce", price: 20),
+        Addon(name: "Salad", price: 20),
+      ],
+    ),
+    Food(
+      name: "Chocolate Ice Cream",
+      description:
+          "Creamy, rich, indulgent delight with a blissful cocoa infusion.",
+      imagePath: "lib/images/deserts/chocolate_icecream.png",
+      price: 100,
+      category: FoodCategory.dessert,
+      availableAddons: [
+        Addon(name: "Sauce", price: 20),
+        Addon(name: "Salad", price: 20),
+      ],
+    ),
+    Food(
+      name: "Strawberry Ice Cream",
+      description:
+          "Creamy, luscious swirls of sweet strawberries in chilly indulgence.",
+      imagePath: "lib/images/deserts/strawberry_icecream.png",
+      price: 100,
+      category: FoodCategory.dessert,
       availableAddons: [
         Addon(name: "Sauce", price: 20),
         Addon(name: "Salad", price: 20),

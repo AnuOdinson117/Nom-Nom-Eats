@@ -12,7 +12,7 @@ class MyCurrentLocation extends StatelessWidget {
       context: context,
       builder: (context) => AlertDialog(
         backgroundColor: Theme.of(context).colorScheme.background,
-        title: const Text("Your Location"),
+        title: const Text("Your Address"),
         content: TextField(
           controller: textController,
           decoration: const InputDecoration(hintText: "Enter Address..."),
@@ -47,7 +47,7 @@ class MyCurrentLocation extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            "Our Locations",
+            "Please enter your Location",
             style: TextStyle(
               color: Theme.of(context).colorScheme.primary,
             ),

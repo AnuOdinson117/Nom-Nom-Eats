@@ -17,11 +17,10 @@ class Food {
 }
 
 enum FoodCategory {
-  startersN,
-  startersV,
-  mainsN,
-  mainsV,
-  desserts,
+  starter,
+  main,
+  oneoff,
+  dessert,
 }
 
 class Addon {
