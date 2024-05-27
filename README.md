@@ -16,7 +16,7 @@ P.S. More features still in development
 ### How to load it in your system?
 
 At first make sure your system has the necessary configurations to run Dart. After that open your terminal and use these commands.
-- Command 1: `git clone https://AnuOdinson117/Nom-Nom-Eats.git`
+- Command 1: `git clone https://www.github.com/AnuOdinson117/Nom-Nom-Eats.git`
 - Command 2: `flutter pub get`
 - Command 3: `flutter run`
 
