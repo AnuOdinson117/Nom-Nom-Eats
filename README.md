@@ -1,15 +1,34 @@
-# nom_nom_eats
+# Nom Nom Eats
 
-A new Flutter project.
+This is my first ever Fullstack Application developed using Flutter and Firebase. This is a food delivery application on a fictional Nom Nom Cafe.
 
-## Getting Started
+### Features of application :-
 
-This project is a starting point for a Flutter application.
+This Fullstack application has a variety of features. Highlighted features are:
+1. User authentication with sign in and sign up.
+2. Food choice and selection with add-ons.
+3. Clean build with alternate Light-Dark mode.
+4. Backend data viewing in Cloud Firestore on purchase completion.
+Other utility features to be experienced when using application.
 
-A few resources to get you started if this is your first Flutter project:
+P.S. More features still in development
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### How to load it in your system?
+
+At first make sure your system has the necessary configurations to run Dart. After that open your terminal and use these commands.
+- Command 1: `git clone https://AnuOdinson117/Nom-Nom-Eats.git`
+- Command 2: `flutter pub get`
+- Command 3: `flutter run`
+
+### Contribution acknowledgement
+
+Thank you [Promit](https://www.github.com/ProSkywalker16) for the its and bits editings on the system as well as fixing some of the dependencies that were a issue with my Flutter configuration (Google please you need to upgrade your Flutter things).
+
+### Project inspiration
+
+The project was mostly taken and based from the awesome developer [MitchKoko](https://www.youtube.com/@createdbykoko). He has been my mentor in building and making me understand Flutter Projects and concepts from my early Flutter learning days. Awesome person please do follow him.
+
+### Utilities
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
