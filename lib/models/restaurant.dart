@@ -11,11 +11,11 @@ class Restaurant extends ChangeNotifier {
       description:
           "Grilled skewered chicken marinated with spices, tender and flavorful bites.",
       imagePath: "lib/images/nonvegstart/chicken_kebabs.png",
-      price: 100,
+      price: 120,
       category: FoodCategory.starter,
       availableAddons: [
-        Addon(name: "Sauce", price: 20),
-        Addon(name: "Salad", price: 20),
+        Addon(name: "Sauce", price: 10),
+        Addon(name: "Salad", price: 5),
       ],
     ),
     Food(
@@ -23,11 +23,10 @@ class Restaurant extends ChangeNotifier {
       description:
           "Spicy, deep-fried chicken wings served as a popular appetizer dish.",
       imagePath: "lib/images/nonvegstart/chicken_lollipops.png",
-      price: 100,
+      price: 80,
       category: FoodCategory.starter,
       availableAddons: [
-        Addon(name: "Sauce", price: 20),
-        Addon(name: "Salad", price: 20),
+        Addon(name: "Salad", price: 5),
       ],
     ),
     Food(
@@ -38,8 +37,8 @@ class Restaurant extends ChangeNotifier {
       price: 100,
       category: FoodCategory.starter,
       availableAddons: [
-        Addon(name: "Sauce", price: 20),
-        Addon(name: "Salad", price: 20),
+        Addon(name: "Sauce", price: 10),
+        Addon(name: "Salad", price: 5),
       ],
     ),
     Food(
@@ -47,11 +46,11 @@ class Restaurant extends ChangeNotifier {
       description:
           "Steamed dumplings filled with spiced chicken, popular in South Asia.",
       imagePath: "lib/images/nonvegstart/chicken_momos.png",
-      price: 100,
+      price: 70,
       category: FoodCategory.starter,
       availableAddons: [
-        Addon(name: "Sauce", price: 20),
-        Addon(name: "Salad", price: 20),
+        Addon(name: "Sauce", price: 15),
+        Addon(name: "Salad", price: 5),
       ],
     ),
     Food(
@@ -59,11 +58,10 @@ class Restaurant extends ChangeNotifier {
       description:
           "Crispy, golden-brown chicken, juicy inside, seasoned to perfection, utterly delicious.",
       imagePath: "lib/images/nonvegstart/chicken_fried.png",
-      price: 100,
+      price: 150,
       category: FoodCategory.starter,
       availableAddons: [
-        Addon(name: "Sauce", price: 20),
-        Addon(name: "Salad", price: 20),
+        Addon(name: "Sauce", price: 10),
       ],
     ),
     Food(
@@ -71,11 +69,12 @@ class Restaurant extends ChangeNotifier {
       description:
           "Juicy chicken patty, fresh veggies, soft bun, flavorful, satisfying, savory treat.",
       imagePath: "lib/images/oneoffs/chicken_burger.png",
-      price: 100,
+      price: 120,
       category: FoodCategory.oneoff,
       availableAddons: [
-        Addon(name: "Sauce", price: 20),
-        Addon(name: "Salad", price: 20),
+        Addon(name: "Extra Patty", price: 25),
+        Addon(name: "Extra Cheese", price: 20),
+        Addon(name: "Extra Veggies", price: 10),
       ],
     ),
     Food(
@@ -83,22 +82,21 @@ class Restaurant extends ChangeNotifier {
       description:
           "Breaded, fried chicken breast, crispy outside, juicy inside, versatile dish.",
       imagePath: "lib/images/oneoffs/chicken_cutlet.png",
-      price: 100,
+      price: 90,
       category: FoodCategory.oneoff,
       availableAddons: [
-        Addon(name: "Sauce", price: 20),
-        Addon(name: "Salad", price: 20),
+        Addon(name: "Sauce", price: 10),
       ],
     ),
     Food(
       name: "Chicken Hotdog",
       description: "Savory chicken sausage in a bun, perfect for quick meals.",
       imagePath: "lib/images/oneoffs/chicken_hotdog.png",
-      price: 100,
+      price: 70,
       category: FoodCategory.oneoff,
       availableAddons: [
-        Addon(name: "Sauce", price: 20),
-        Addon(name: "Salad", price: 20),
+        Addon(name: "Ketchup", price: 10),
+        Addon(name: "Mayonnaise", price: 10),
       ],
     ),
     Food(
@@ -109,8 +107,10 @@ class Restaurant extends ChangeNotifier {
       price: 100,
       category: FoodCategory.oneoff,
       availableAddons: [
-        Addon(name: "Sauce", price: 20),
-        Addon(name: "Salad", price: 20),
+        Addon(name: "Extra Chicken", price: 25),
+        Addon(name: "Extra Cheese", price: 20),
+        Addon(name: "Mushrooms", price: 10),
+        Addon(name: "Corns", price: 15),
       ],
     ),
     Food(
@@ -118,11 +118,10 @@ class Restaurant extends ChangeNotifier {
       description:
           "Fluffy rice mixed with tender peas, a simple, delicious side dish.",
       imagePath: "lib/images/mains/peas_rice.png",
-      price: 100,
+      price: 120,
       category: FoodCategory.main,
       availableAddons: [
-        Addon(name: "Sauce", price: 20),
-        Addon(name: "Salad", price: 20),
+        Addon(name: "Large Plate", price: 30),
       ],
     ),
     Food(
@@ -130,11 +129,14 @@ class Restaurant extends ChangeNotifier {
       description:
           "Fragrant rice cooked with tender chicken, spices, and aromatic herbs.",
       imagePath: "lib/images/mains/chicken_biriyani.png",
-      price: 100,
+      price: 180,
       category: FoodCategory.main,
       availableAddons: [
-        Addon(name: "Sauce", price: 20),
-        Addon(name: "Salad", price: 20),
+        Addon(name: "Extra Chicken", price: 40),
+        Addon(name: "Extra Potato", price: 15),
+        Addon(name: "Boiled Egg", price: 20),
+        Addon(name: "Sauce", price: 15),
+        Addon(name: "Salad", price: 5),
       ],
     ),
     Food(
@@ -142,11 +144,10 @@ class Restaurant extends ChangeNotifier {
       description:
           "Savory stir-fried rice with tender chicken, veggies, and flavorful seasoning.",
       imagePath: "lib/images/mains/chicken_fried_rice.png",
-      price: 100,
+      price: 150,
       category: FoodCategory.main,
       availableAddons: [
-        Addon(name: "Sauce", price: 20),
-        Addon(name: "Salad", price: 20),
+        Addon(name: "Extra Chicken", price: 40),
       ],
     ),
     Food(
@@ -157,8 +158,7 @@ class Restaurant extends ChangeNotifier {
       price: 100,
       category: FoodCategory.main,
       availableAddons: [
-        Addon(name: "Sauce", price: 20),
-        Addon(name: "Salad", price: 20),
+        Addon(name: "Large Pieces", price: 20),
       ],
     ),
     Food(
@@ -169,8 +169,7 @@ class Restaurant extends ChangeNotifier {
       price: 100,
       category: FoodCategory.main,
       availableAddons: [
-        Addon(name: "Sauce", price: 20),
-        Addon(name: "Salad", price: 20),
+        Addon(name: "Large Pieces", price: 20),
       ],
     ),
     Food(
@@ -178,11 +177,10 @@ class Restaurant extends ChangeNotifier {
       description:
           "Spicy, tangy, tender chicken with peppers, onions, and flavorful sauce.",
       imagePath: "lib/images/mains/chicken_chilli.png",
-      price: 100,
+      price: 120,
       category: FoodCategory.main,
       availableAddons: [
-        Addon(name: "Sauce", price: 20),
-        Addon(name: "Salad", price: 20),
+        Addon(name: "Extra Chilli", price: 20),
       ],
     ),
     Food(
@@ -190,11 +188,11 @@ class Restaurant extends ChangeNotifier {
       description:
           "Creamy, rich, indulgent delight with a blissful cocoa infusion.",
       imagePath: "lib/images/deserts/chocolate_icecream.png",
-      price: 100,
+      price: 80,
       category: FoodCategory.dessert,
       availableAddons: [
-        Addon(name: "Sauce", price: 20),
-        Addon(name: "Salad", price: 20),
+        Addon(name: "Choco Chips", price: 10),
+        Addon(name: "Choco Syrup", price: 15),
       ],
     ),
     Food(
@@ -202,11 +200,10 @@ class Restaurant extends ChangeNotifier {
       description:
           "Creamy, luscious swirls of sweet strawberries in chilly indulgence.",
       imagePath: "lib/images/deserts/strawberry_icecream.png",
-      price: 100,
+      price: 80,
       category: FoodCategory.dessert,
       availableAddons: [
-        Addon(name: "Sauce", price: 20),
-        Addon(name: "Salad", price: 20),
+        Addon(name: "Strawberry", price: 25),
       ],
     ),
   ];
