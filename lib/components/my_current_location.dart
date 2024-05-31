@@ -50,6 +50,7 @@ class MyCurrentLocation extends StatelessWidget {
             "Please enter your Location",
             style: TextStyle(
               color: Theme.of(context).colorScheme.primary,
+              fontWeight: FontWeight.bold,
             ),
           ),
           GestureDetector(
@@ -61,7 +62,6 @@ class MyCurrentLocation extends StatelessWidget {
                     restaurant.deliveryAddress,
                     style: TextStyle(
                       color: Theme.of(context).colorScheme.inversePrimary,
-                      fontWeight: FontWeight.bold,
                     ),
                   ),
                 ),

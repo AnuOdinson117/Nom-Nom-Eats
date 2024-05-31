@@ -23,6 +23,7 @@ class MyTabBar extends StatelessWidget {
       child: TabBar(
         controller: tabController,
         tabs: _buildCategoryTabs(),
+        labelColor: Theme.of(context).colorScheme.inversePrimary,
       ),
     );
   }

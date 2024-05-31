@@ -35,7 +35,12 @@ class FoodTile extends StatelessWidget {
                       const SizedBox(
                         height: 10,
                       ),
-                      Text(food.description),
+                      Text(
+                        food.description,
+                        style: TextStyle(
+                          color: Theme.of(context).colorScheme.inversePrimary,
+                        ),
+                      ),
                     ],
                   ),
                 ),
@@ -51,7 +56,7 @@ class FoodTile extends StatelessWidget {
           ),
         ),
         Divider(
-          color: Theme.of(context).colorScheme.secondary,
+          color: Theme.of(context).colorScheme.tertiary,
           endIndent: 25,
           indent: 25,
         ),
