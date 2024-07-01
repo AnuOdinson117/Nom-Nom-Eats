@@ -13,7 +13,7 @@ class CartPage extends StatelessWidget {
     return Consumer<Restaurant>(builder: (context, restaurant, child) {
       final userCart = restaurant.cart;
       return Scaffold(
-        backgroundColor: Theme.of(context).colorScheme.background,
+        backgroundColor: Theme.of(context).colorScheme.surface,
         appBar: AppBar(
           title: const Text("Your Cart"),
           backgroundColor: Colors.transparent,
@@ -42,7 +42,7 @@ class CartPage extends StatelessWidget {
                   ),
                 );
               },
-              icon: Icon(Icons.delete_rounded),
+              icon: const Icon(Icons.delete_rounded),
             ),
           ],
         ),
