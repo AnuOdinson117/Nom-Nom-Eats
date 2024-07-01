@@ -2,6 +2,11 @@
 
 This is my first ever Fullstack Application developed using Flutter and Firebase. This is a food delivery application on a fictional Nom Nom Cafe.
 
+### Technology Used
+
+![C++](https://img.shields.io/badge/Flutter-080808?style=for-the-badge&logo=Flutter&logoColor=cyan)
+![C++](https://img.shields.io/badge/Firebase-080808?style=for-the-badge&logo=Firebase&logoColor=yellow)
+
 ### Features of application :-
 
 This Fullstack application has a variety of features. Highlighted features are:
@@ -17,8 +22,9 @@ P.S. More features still in development
 
 At first make sure your system has the necessary configurations to run Dart. After that open your terminal and use these commands.
 - Command 1: `git clone https://www.github.com/AnuOdinson117/Nom-Nom-Eats.git`
-- Command 2: `flutter pub get`
-- Command 3: `flutter run`
+- Command 2: `cd Nom-Nom-Eats`
+- Command 3: `flutter pub get`
+- Command 4: `flutter run`
 
 ### Contribution acknowledgement
 
