@@ -2,10 +2,23 @@
 
 This is my first ever Fullstack Application developed using Flutter and Firebase. This is a food delivery application on a fictional Nom Nom Cafe.
 
-### Technology Used
+## Technology Used
 
-![C++](https://img.shields.io/badge/Flutter-080808?style=for-the-badge&logo=Flutter&logoColor=cyan)
-![C++](https://img.shields.io/badge/Firebase-080808?style=for-the-badge&logo=Firebase&logoColor=yellow)
+### Main Language
+![Dart](https://img.shields.io/badge/dart-080808?style=for-the-badge&logo=dart&logoColor=cyan)
+### App Development Framework
+![Flutter](https://img.shields.io/badge/Flutter-080808?style=for-the-badge&logo=Flutter&logoColor=cyan)
+![Gradle](https://img.shields.io/badge/Gradle-080808?style=for-the-badge&logo=Gradle&logoColor=seagreen)
+### Back End Service (SAAS)
+![Firebase](https://img.shields.io/badge/Firebase-080808?style=for-the-badge&logo=Firebase&logoColor=yellow)
+### Device Types Available
+![Android](https://img.shields.io/badge/Android-080808?style=for-the-badge&logo=Android)
+![iOS](https://img.shields.io/badge/iOS-080808?style=for-the-badge&logo=iOS)
+### Version Control
+![Git](https://img.shields.io/badge/Git-080808?style=for-the-badge&logo=Git)
+![GitHub](https://img.shields.io/badge/GitHub-080808?style=for-the-badge&logo=GitHub)
+
+## Features Loading and other Utilities
 
 ### Features of application :-
 
