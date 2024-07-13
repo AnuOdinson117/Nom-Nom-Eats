@@ -8,7 +8,6 @@ This is my first ever Fullstack Application developed using Flutter and Firebase
 ![Dart](https://img.shields.io/badge/dart-080808?style=for-the-badge&logo=dart&logoColor=cyan)
 ### App Development Framework
 ![Flutter](https://img.shields.io/badge/Flutter-080808?style=for-the-badge&logo=Flutter&logoColor=cyan)
-![Gradle](https://img.shields.io/badge/Gradle-080808?style=for-the-badge&logo=Gradle&logoColor=seagreen)
 ### Back End Service (SAAS)
 ![Firebase](https://img.shields.io/badge/Firebase-080808?style=for-the-badge&logo=Firebase&logoColor=yellow)
 ### Device Types Available
